@@ -20,10 +20,11 @@ body {
 }
 
 #headDr {
-   
+
     width: 15vw;
 }
-.headL{
+
+.headL {
     margin: 0 10px;
     display: flex;
     align-items: center;
@@ -31,13 +32,14 @@ body {
     padding: 10px;
 }
 
-button{
+button {
     border: 1px solid black;
     border-radius: 10px
 }
-button:hover{
 
-   background-color:  aquamarine;
+button:hover {
+
+    background-color: aquamarine;
 }
 
 #main {
@@ -55,14 +57,18 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
     gap: 20px;
 }
-#sub{
- font-size: smaller
+
+#sub {
+    font-size: smaller;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
 }
 
-input{
+input {
     border-radius: 1rem;
     width: 30vw;
     height: 3vh;
@@ -70,7 +76,7 @@ input{
 
 #mainOpciones p {
     background-color: rgba(236, 236, 236, 0.36);
-    
+
 }
 
 
@@ -133,4 +139,17 @@ input{
     justify-content: space-between;
     padding: 0 5px;
 
+}
+
+a:visited {
+    color: black;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
 }
